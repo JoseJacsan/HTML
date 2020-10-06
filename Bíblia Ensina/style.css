@@ -1,0 +1,56 @@
+/*Estilos gerais para todo o documento HTML*/
+* {font-family: 'Source Sans Pro', sans-serif; text-align: justify;}
+summary {font-size: 30px;}
+
+
+/*BODY*/
+body {width: 85%; margin-left: 10px;}
+
+/*TABELAS*/
+table, th, td {border: solid 1px #000000;}
+th, td {padding: 5px;}
+
+/*div e span*/
+div {margin-top: -0.5em;}
+span {font-size: 18px; font-weight: bold;}
+.eu-creio {font-weight: normal; font-size: 15px}
+
+/*Links*/
+a {font-size: 1.25em; 
+    text-decoration: none; 
+    color: #0645AD;
+}
+a:hover {text-decoration: underline; 
+        cursor: pointer;
+}
+
+/*Itens da lista*/
+li {margin-left: -1.25em;}
+
+/*Itens do font awesome*/
+.fa-arrow-down {font-size: 30px;
+        padding-left: 0.5em;
+}
+
+#seta{font-size: 45px;}
+
+#span-seta {font-size: 35px; padding-left: -1em;}
+
+
+.eu {
+    margin-top: 0.4em;
+}
+
+
+/*DISPOSITIVOS COM TELA PEQUENA*/
+@media screen and (min-width: 480px) {
+    body {width: 90%; margin-left: 5px;}
+
+}
+
+/*DISPOSITIVOS COM TELA GRANDE*/
+@media screen and (min-width: 700px) {
+    
+    body {width: 80%; margin-left: 1em;}
+
+}
